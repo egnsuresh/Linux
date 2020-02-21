@@ -1,0 +1,46 @@
+#001:
+pwd: present working direcotry
+
+example: 
+
+command:pwd
+output: /home/user1/folder1/subfolder
+
+#002:
+ls -a: list of documents in a directory and -a represents to list the all the files and folder including hidden
+       -a is optional (see below two examples)
+
+example:1
+
+command: ls
+
+output:
+
+readme.rd
+hello.txt
+file1.java
+file2.scala
+
+example:2
+
+command: ls -a
+
+output:
+.
+..
+.git
+.gitignore
+readme.rd
+hello.txt
+file1.java
+file2.scala
+
+
+#003:
+cd: change direcotry
+
+example: 
+
+command:cd subfolder
+output: subfolder$
+
